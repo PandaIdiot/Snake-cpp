@@ -7,6 +7,7 @@
 #define W 22
 using namespace std;
 
+//µØÍ¼±ß½ç
 class chessboard
 {
 public:
