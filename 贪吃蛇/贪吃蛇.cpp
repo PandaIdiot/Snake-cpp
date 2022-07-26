@@ -17,7 +17,6 @@ public:
     void food();
     void prt(int grade,int score,int gamespeed);
  };
-//构造函数
 chessboard::chessboard()
 {
     for(i=1;i<=H-2;i++)
@@ -56,7 +55,6 @@ void chessboard::prt(int grade,int score,int gamespeed)
         cout<<endl;
     }
 }
-//继承类
 class snake:public chessboard
 {
 public:
